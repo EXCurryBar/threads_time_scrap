@@ -1,7 +1,7 @@
 @echo off
 rem 設定檔案路徑和網址
 set LOCAL_FILE=".\don't touch\main.py"
-set REMOTE_URL=https://example.com/path/to/your_script.py
+set REMOTE_URL="https://raw.githubusercontent.com/EXCurryBar/threads_time_scrap/refs/heads/main/don't touch/main.py"
 set TEMP_FILE=%TEMP%\temp_download.py
 
 rem 檢查本地檔案是否存在
