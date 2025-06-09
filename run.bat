@@ -1,1 +1,1 @@
-python "don't touch\run.py"
+.venv\Scripts\python.exe "don't touch\run.py"

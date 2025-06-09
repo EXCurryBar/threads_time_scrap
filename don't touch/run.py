@@ -1,7 +1,6 @@
 import os
 import urllib.request
 import shutil
-from main import start_crawling
 
 LOCAL_FILE = r"don't touch\main.py"
 REMOTE_URL = "https://raw.githubusercontent.com/EXCurryBar/threads_time_scrap/refs/heads/main/don't%20touch/main.py"
@@ -31,4 +30,5 @@ finally:
     if os.path.exists(TEMP_FILE):
         os.remove(TEMP_FILE)
 
+from main import start_crawling
 start_crawling()
